@@ -35,6 +35,9 @@
 
 /public/packs
 /public/packs-test
+/public/application.js
+/public/application.js.map
+/public/stylesheets/*
 /node_modules
 /yarn-error.log
 yarn-debug.log*
@@ -42,3 +45,4 @@ yarn-debug.log*
 
 /_app/node_modules
 /_app/package-lock.json
+/_app/public/*
