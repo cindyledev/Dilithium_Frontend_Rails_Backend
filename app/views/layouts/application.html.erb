@@ -4,9 +4,11 @@
     <title>Myapp</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+    <%= stylesheet_link_tag '/stylesheets/application.css' %>
   </head>
 
   <body>
     <%= yield %>
+    <%= javascript_include_tag '/application.js' %>
   </body>
 </html>
