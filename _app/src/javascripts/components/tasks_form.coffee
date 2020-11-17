@@ -11,7 +11,7 @@ export default class TasksForm extends Component
     Api.tasks.create attrs
     return false
   render:=>
-    m 'form', onclick: @submit,
+    m 'form.tasks_form', onclick: @submit,
       m '.fields',
         m InputText, attribute: @model.name, handle: 'name', placeholder: 'Write a new task'
       m '.submit',
