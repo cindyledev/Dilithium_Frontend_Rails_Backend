@@ -6,4 +6,8 @@ class Api::TasksController < Api::BaseController
       { id: 3, name: "My UI" },
     ]
   end
+  
+  def create
+    render json: { id: 4, name: params[:task][:name] }
+  end
 end
